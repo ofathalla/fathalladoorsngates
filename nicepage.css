@@ -38826,8 +38826,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 @media (max-width: 991px) {
+  .u-header .u-section-row-2 {
+    min-height: 74px;
+  }
+
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 210px);
+    margin-right: calc(((100% - 720px) / 2) + -51px);
     margin-left: auto;
   }
 
@@ -38861,23 +38865,23 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 38px;
-    margin-right: calc(((100% - 340px) / 2) + -36px);
+    margin-top: 32px;
+    margin-right: 0;
   }
 
   .u-header .u-image-1 {
     width: 243px;
-    margin-top: -56px;
+    margin-top: -50px;
     margin-bottom: 34px;
     margin-left: calc(((100% - 340px) / 2) + -47px);
   }
 }
  .u-footer {
-  min-height: 85px;
+  min-height: 57px;
 }
 
 .u-footer .u-menu-1 {
-  margin: 25px calc(((100% - 1140px) / 2) + -36px) 0 auto;
+  margin: 7px 0 0 auto;
 }
 
 .u-footer .u-nav-2 {
@@ -38885,9 +38889,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-image-1 {
-  width: 222px;
-  height: 61px;
-  margin: -49px auto 12px 0;
+  width: 182px;
+  height: 50px;
+  margin: -43px auto 7px 0;
 }
 
 .u-footer .u-logo-image-1 {
@@ -38899,55 +38903,49 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 89px;
   }
 
-  .u-footer .u-menu-1 {
-    margin-right: calc(((100% - 940px) / 2) + -36px);
-  }
-
   .u-footer .u-image-1 {
-    margin-top: -49px;
-    margin-bottom: 16px;
+    margin-top: -43px;
+    margin-bottom: 39px;
   }
 }
 @media (max-width: 991px) {
   .u-footer .u-menu-1 {
     margin-top: 27px;
-    margin-right: calc(((100% - 720px) / 2) + -36px);
   }
 
   .u-footer .u-image-1 {
     margin-top: -49px;
-    margin-bottom: 14px;
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 767px) {
    .u-footer {
-    min-height: 85px;
+    min-height: 57px;
   }
 
   .u-footer .u-menu-1 {
     width: auto;
     margin-top: 30px;
-    margin-right: calc(((100% - 540px) / 2) + -36px);
   }
 
   .u-footer .u-image-1 {
     margin-top: -50px;
-    margin-bottom: 11px;
+    margin-bottom: 19px;
     margin-left: calc(((100% - 540px) / 2) + -48px);
   }
 }
 @media (max-width: 575px) {
    .u-footer {
-    min-height: 87px;
+    min-height: 101px;
   }
 
   .u-footer .u-menu-1 {
-    margin-right: calc(((100% - 340px) / 2) + -36px);
+    margin-right: calc(((100% - 340px) / 2) + -47px);
   }
 
   .u-footer .u-image-1 {
-    margin-top: -49px;
-    margin-bottom: 18px;
+    margin-top: -43px;
+    margin-bottom: 32px;
     margin-left: calc(((100% - 340px) / 2) + -27px);
   }
 }
